@@ -1,0 +1,88 @@
+.Cuadro-datos{
+    background-color: #035263;
+    height: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1.5%;
+    border-radius: 10px;
+    
+}
+
+.Cuadro-datos input{
+    background-color: #BDD040;
+    border-color: #BDD040;
+    margin-top: 1%;
+    
+}
+
+.Cuadro-productos{
+    background-color: #E67B22;
+    margin-left: 3%;
+    padding: 2%;
+    border-radius: 10px;
+    width: 40%;
+    
+    display: flex;
+}
+
+.basura{
+    margin-left: 18%;
+}
+
+.Productos-total{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.Cuadro-total{
+    background-color: #565ABB;
+    padding: 2%;
+    margin-right: 3%;
+    border-radius: 10px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+
+.boton-finalizar{
+    margin: 5% 40%;
+
+}
+
+.mapa{
+    margin-top:7%; 
+}
+
+
+
+.producto-carrito div{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5% 10%;
+    margin-bottom: 3%;
+    display: flex;
+}
+
+.botones-carrito img{
+  width: 70% ;
+  height: 20% ;
+    margin-top: 20%;
+    margin-right: 15%;
+  
+}
+
+.botones-carrito span{
+    font-size: xx-large;
+    margin-left: 20%;
+}
+
+@media (max-width: 768px){
+    .Cuadro-total h4{
+        font-size: small;
+    
+    }
+
+  
+}

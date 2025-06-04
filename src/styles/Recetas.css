@@ -1,0 +1,22 @@
+.card-Receta{    
+    
+    width: 50%;
+    margin: 10% 25%;
+    text-align: center;
+    border-bottom-right-radius: 20%;
+    background-color: orange;
+}
+
+.Busqueda form{
+    display: flex ;
+    flex-direction: row;
+    
+}
+
+.Busqueda{
+    margin-top: 3%;
+}
+
+.card-titulo{
+    text-align: left;
+}

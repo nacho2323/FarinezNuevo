@@ -1,0 +1,135 @@
+.Home{
+  background-color: #FFF9D1;
+}
+
+.ImagenInicio{
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    color: white;
+    border-bottom-right-radius: 20%;
+}
+
+h2{
+    padding: 3%;
+}
+
+.card-img-receta{
+  max-height: 250px;
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+}
+
+.card-img-top{
+  max-height: 370px;
+}
+
+.card{
+    width: 100%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+
+
+.GrupoCard a{
+    width: 100%;
+}
+
+.GrupoCard{    
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.slider-container{
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+
+.botonIr{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.Home{
+    display: flex;
+    flex-direction: column;
+}
+
+.recetas-cards{
+  display: flex;
+  flex-direction: row;
+}
+
+.recetas-cards img{
+  height: 50%;
+  width: 100%;
+}
+
+.recetas-cards a {
+  text-decoration: none;   
+  color: inherit;          
+}
+
+
+@media (max-width: 768px) {
+    .GrupoCard h5 {
+      font-size: 0.75rem;
+    }
+
+    .card h5{
+      
+      font-size: 0.75rem;
+    }
+
+    .card img{
+      max-height: 100px;
+    }
+    
+    .card a{
+      
+      font-size: 0.75rem;
+    }
+
+    .btn-dark{
+      font-size: 0.75rem;
+      margin-top: 4%;
+      
+    
+        padding-top: 2px;
+        padding-right: 4px;
+        padding-left: 4px;
+        margin-bottom: 4px;
+    
+      
+    }
+  
+    .GrupoCard p {
+      font-size: 0.7rem;
+    }
+  
+    .GrupoCard a {
+      font-size: 0.75rem;
+    }
+  
+    h2 {
+      font-size: 1.1rem;
+    }
+  
+    .home h1 {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+
+  }
+
+
