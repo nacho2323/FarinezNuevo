@@ -7,7 +7,7 @@ import Recetas from './pages/Recetas';
 import Carrito from './pages/Carrito';
 import DetalleReceta from './pages/DetalleReceta';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './index.css';
+import './styles/App.css';
 
 function App() {
   const [carrito, setCarrito] = useState([]);
